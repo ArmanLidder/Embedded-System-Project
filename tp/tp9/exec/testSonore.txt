@@ -1,0 +1,20 @@
+dal 1;  // test to see if dbt is well detected
+dbt;    // start
+sgo 45; // play note 45 
+att 80; // waits 2 seconds
+sar;    // stop note
+sgo 44; // test should not play anything
+att 40; // wait 1 second
+sgo 82; // test should not play anything
+att 40; // wait 1 second
+sgo 92; // test should not play anything
+att 40; // wait 1 second
+sgo 2;  // test should not play anything
+att 40; // wait 1 second (We should hear nothing for 4 seconds)
+sgo 0;  // play godfather theme
+dbc 9;  // loop 10 time
+att 40; // wait 1 second
+fbc;    // end loop if done
+sar;    // stop song
+fin;    // end program
+dal 1;  // test if end program well detected

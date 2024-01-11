@@ -1,0 +1,12 @@
+# Ignore all files
+*
+#But not these 
+!.gitignore
+!*.pdf
+!*.hpp
+!*.h
+!*.cpp
+!*.txt
+!Makefile
+# ...even if they are in subdirectories
+!*/

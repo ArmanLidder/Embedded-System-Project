@@ -1,0 +1,15 @@
+dbt;
+dbc 1;  // Loops twice
+dal 2;  // Red LED
+att 40; // 1s
+det;    // LED Off
+att 40; // 1s
+fbc;    // End loop if 0
+dbc 1;  // Loops twice
+dal 1;  // Green LED
+att 40; // 1s
+det;    // LED Off   
+att 40; // 1s
+fbc;    // end loop if 0 
+fin;    // end program
+dal 1;  // to test if fin close program

@@ -1,0 +1,16 @@
+dbt;     // Start program
+mav 0;   // Forward
+att ;  // wait 1 second
+fbc;     // end loop
+mre 0;   // Backward
+dbc 9;   // Loop 10 time
+fbc;     // end loop
+trd;     // 90 degrees turn right
+mav 0;   // Forward
+att 40;  // wait 1 second
+trg;     // turn left
+att 120; // wait 3 seconds
+mre 0;   // Backwards 
+att 120; // wait 3 seconds
+fin;     // end program
+

@@ -1,0 +1,17 @@
+#pragma once
+#define F_CPU 8000000UL
+// #include "ButtonInterruption.h"
+// #include "LED.h"
+// #include "can.h"
+// #include "debug.h"
+// #include "memoire_24.h"
+// #include "motor.h"
+// #include "Sound.h"
+// #include "timer.h"
+// #include "TransmitToExMemory.h" 
+// #include "usart.h"
+// #include "Godfather.h"
+// #include "FollowLineTrajetA.h"
+// #include "FollowLineTrajetB.h"
+// #include "distanceSensor.h"
+// #include "targetSVisitor.h"
